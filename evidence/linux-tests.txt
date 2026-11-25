@@ -1,0 +1,22 @@
+test_alternate_index_does_not_hide_tracked_path (test_detox.DetoxTests.test_alternate_index_does_not_hide_tracked_path) ... ok
+test_backup_outside_worktree (test_detox.DetoxTests.test_backup_outside_worktree) ... ok
+test_bad_config_preserves_other_findings (test_detox.DetoxTests.test_bad_config_preserves_other_findings) ... ok
+test_becomes_tracked_after_preview (test_detox.DetoxTests.test_becomes_tracked_after_preview) ... ok
+test_chat_round_trip_identical_bundle (test_detox.DetoxTests.test_chat_round_trip_identical_bundle) ... ok
+test_different_helper_and_missing_empty_directory (test_detox.DetoxTests.test_different_helper_and_missing_empty_directory) ... ok
+test_hard_exit_after_rename_resumes (test_detox.DetoxTests.test_hard_exit_after_rename_resumes) ... ok
+test_invalid_selection_and_confirmation (test_detox.DetoxTests.test_invalid_selection_and_confirmation) ... ok
+test_legacy_undo (test_detox.DetoxTests.test_legacy_undo) ... ok
+test_mid_batch_failure_has_partial_receipt_and_undo (test_detox.DetoxTests.test_mid_batch_failure_has_partial_receipt_and_undo) ... ok
+test_repeated_instruction_locations (test_detox.DetoxTests.test_repeated_instruction_locations) ... ok
+test_restore_refuses_collision_and_rechecks_repeat (test_detox.DetoxTests.test_restore_refuses_collision_and_rechecks_repeat) ... ok
+test_retry_flags_manual_restore (test_detox.DetoxTests.test_retry_flags_manual_restore) ... ok
+test_schedule_verified_pause_and_resume (test_detox.DetoxTests.test_schedule_verified_pause_and_resume) ... ok
+test_stale_second_item_does_not_move_first (test_detox.DetoxTests.test_stale_second_item_does_not_move_first) ... ok
+test_symlinked_bundle_requires_manual_review (test_detox.DetoxTests.test_symlinked_bundle_requires_manual_review) ... ok
+test_tracked_staged_and_head_only (test_detox.DetoxTests.test_tracked_staged_and_head_only) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 3.976s
+
+OK

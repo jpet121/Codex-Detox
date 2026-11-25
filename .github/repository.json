@@ -1,0 +1,19 @@
+{
+  "name": "Codex-Detox",
+  "description": "Audit OpenAI Codex skills, AGENTS.md instructions, and MCP configuration. Compare duplicate skill folders, preview an archive, and restore it from a verified receipt.",
+  "topics": [
+    "openai-codex",
+    "codex-skills",
+    "agent-skills",
+    "agents-md",
+    "configuration-audit",
+    "developer-tools",
+    "python",
+    "cli",
+    "backup-and-restore",
+    "crash-recovery",
+    "regression-testing",
+    "mcp"
+  ],
+  "social_preview": "docs/images/codex-detox-sample.png"
+}

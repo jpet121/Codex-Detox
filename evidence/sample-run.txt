@@ -1,0 +1,5 @@
+code-review      Identical bundle. Eligible for archive.
+release-review   rules.txt differs. Keep for review.
+Preview          1 project copy selected.
+Archive          Project copy moved. Backup verified.
+Undo             Project copy restored. Receipt verified.

@@ -1,0 +1,14 @@
+interface:
+  display_name: Codex Detox
+  short_description: Review project setup and safely archive duplicate skills
+  default_prompt: Use $codex-detox to audit this project and show me the changes I
+    can review.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

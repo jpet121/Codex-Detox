@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Codex Detox · Project review</title>
+<style>
+:root{color-scheme:light dark;font:16px/1.5 system-ui,sans-serif;--line:#82838a66}body{max-width:54rem;margin:3rem auto;padding:0 1.2rem}h1{font-size:clamp(2rem,6vw,3rem);letter-spacing:-.045em;margin:0}section{margin:2rem 0}article{padding:1rem;border:1px solid var(--line);border-radius:.65rem;margin:.6rem 0}pre{font: .88rem/1.55 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere}label{display:block;padding:.35rem}button{padding:.7rem 1rem;font:inherit;border:0;border-radius:.5rem;background:#4e469c;color:white}button:disabled{opacity:.55}footer{position:sticky;bottom:0;background:Canvas;padding:.8rem 0;border-top:1px solid var(--line);display:flex;gap:1rem;align-items:center}
+</style><main><h1>Codex Detox</h1><p>Tell Codex which item numbers to preview. You can also tick the items and export your selection. Each archive needs your approval in chat.</p>REPORT_ROWS</main>
+<footer><button disabled>Export selection</button><output aria-live="polite">0 selected</output></footer>
+<script>
+const run='RUN_ID', button=document.querySelector('button'), status=document.querySelector('output');
+const selected=()=>Array.from(document.querySelectorAll('input:checked'),input=>input.value);
+document.addEventListener('change',()=>{const n=selected().length;status.value=n+' selected';button.disabled=!n});
+button.addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({run,ids:selected()},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='detox-'+run+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);status.value='Selection exported. Return it to Codex.'});
+</script></html>

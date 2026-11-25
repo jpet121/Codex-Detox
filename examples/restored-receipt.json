@@ -1,0 +1,29 @@
+{
+  "ids": [
+    "58b6893a1edd3b485adc5f603621932f3ee50ece24e078a362d542ec2fddcaa7"
+  ],
+  "confirmation": "452d391d12aa13f9a8fc4a74f6c01328ed4912245e5dc69ef616acef0f11a6ad",
+  "plan": [
+    {
+      "source": "/tmp/codex-detox-portfolio-demo/project/.agents/skills/code-review",
+      "backup": "/tmp/codex-detox-portfolio-demo/project/.codex-detox-backups/fd56bfd8c6bf4fb5b5f5daf13a1ed21d/code-review",
+      "keep": "/tmp/codex-detox-portfolio-demo/personal/.agents/skills/code-review",
+      "fingerprint": "70c8244cfe832392c81b2996c04cc31e5f8fc35a61676413fb2216934ada9ec0"
+    }
+  ],
+  "completed": [
+    "58b6893a1edd3b485adc5f603621932f3ee50ece24e078a362d542ec2fddcaa7"
+  ],
+  "restored": [
+    "58b6893a1edd3b485adc5f603621932f3ee50ece24e078a362d542ec2fddcaa7"
+  ],
+  "direction": "undo",
+  "status": "restored",
+  "observed": {
+    "58b6893a1edd3b485adc5f603621932f3ee50ece24e078a362d542ec2fddcaa7": {
+      "source": "match",
+      "backup": "absent",
+      "keep": "match"
+    }
+  }
+}
